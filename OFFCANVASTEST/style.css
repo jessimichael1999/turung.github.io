@@ -1,0 +1,377 @@
+body{
+    font-family: "montserrat";
+    height: 100vh;
+    height: -webkit-fill-available;
+    
+}
+html {
+    height: -webkit-fill-available;
+}
+
+/*name*/
+
+
+#name img{
+    width: 25%;
+    padding-bottom: 5px;
+
+
+}
+.nav-item {
+    padding: 0% 20px 1%;
+    margin-right: 25px;
+    margin-left: 20px;
+
+}
+
+.nav-link {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.nav-link:hover {
+    color: aqua;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    padding: 0% 10% 4.5%;
+    font-size: 4rem;
+}
+
+/*dismiss button*/
+.header1 {
+    padding: 1% 1%;
+    background: white;
+}
+.icon {
+    background: black;
+    color: black;
+}
+.icon:hover {
+    color: lightblue;
+    background: lightblue;
+}
+
+/* intro section */
+#intro {
+    
+    padding: 7% 30%;
+    background: whitesmoke;
+    text-align: center;
+    font-family: sans-serif;
+}
+#intro h1 {
+    color: darkgoldenrod;
+    padding: 1.5% 0%;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#intro p {
+    color: darkgoldenrod;
+    padding: 1rem 0rem;
+}
+
+
+@keyframes blink {
+    25% {
+        background: black;
+    }
+
+    40% {
+        background: white;
+    }
+
+    65% {
+        background: darkcyan;
+    }
+
+    85% {
+        background: darkslategray;
+    }
+}
+
+
+
+
+
+@-webkit-keyframes blink {
+    25% {
+        background: black;
+    }
+
+    40% {
+        background: white;
+    }
+
+    65% {
+        background: darkcyan;
+    }
+
+    80% {
+        background: darkslategray;
+    }
+}
+
+
+#intro {
+    height: 100%;
+    width: 100%;
+    border: 1px solid ;
+    animation: blink 25s infinite;
+    -webkit-animation: blink 25s infinite;
+}
+
+
+
+
+
+
+
+
+
+ /* button*/
+ .button-contact {
+    margin: 5% 3% 5% 0%;
+ }  
+ 
+ /*about section*/
+ #about {
+    text-align: center;
+    background: black;
+    padding: 0% 3% 0% 0%;
+ }
+.header2 {
+    padding: 7% 0%;
+}
+#about img {
+    width: 45%;
+    margin-left: 6%;
+    margin-top: 4%;
+    
+}
+
+
+#about p {
+    line-height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#about h5 {
+    text-align: center;
+}
+.tap {
+    color: aqua;
+}
+
+
+
+/*WORK-SECTION*/
+#works {
+    background-color: whitesmoke;
+    padding: 0% 0% 0% 3%;
+    
+
+}
+.container {
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+  
+#works ul {
+    list-style: none;
+}
+#works p {
+    line-height: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: darkslategrey;
+    
+    
+}
+#works img {
+    width: 50%;
+    
+}
+
+.how {
+    padding: 2% 0% 2% 0%;
+}
+
+#works h1 {
+    padding-left: 3%;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    color: darkslategrey;
+    font-weight: bolder;
+}
+.icon1 {
+    color: aqua;
+}
+
+/*TOKEN SECTION*/
+#token {
+    background: black;
+    padding: 4% 5%;
+}
+#token img {
+    width: 60%;
+}
+#token ul {
+    list-style: none;
+}
+#token p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    font-weight: bolder;
+}
+
+#token h1 {
+    padding-left: 2%;
+}
+
+.but {
+    margin: 2% 0% 1.5% 6%;
+}
+
+#type {
+    background: darkslategray;
+    
+    
+}
+
+#type p {
+    margin: 2% 0% 1.5% 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+    
+}
+#type h1 {
+    margin-right: 1%;
+ }
+
+.but-cont {
+    margin: 2% 0% 2% 3%;
+}
+
+.crypto-fiat {
+    width: 25%;
+}
+
+/*tokenomics*/
+
+#tokenomics {
+    background: black;
+    padding: 2.5% 3%;
+}
+
+#tokenomics td {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    line-height: 2;
+}
+#tokenomics h1 {
+    color: aqua;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+#tokenomics h3 {
+    color: aqua;
+    font-style: normal;
+    font-weight: bolder;
+} 
+
+
+/*roadmap*/
+
+#roadmap {
+    background: black;
+    padding: 2.5% 3%;
+    
+}
+
+#roadmap ul {
+    list-style: none;
+}
+
+#roadmap li {
+    line-height: 2.2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+#roadmap h1 {
+    color: aqua;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+/*contact*/
+#contact {
+    background: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.butdiv {
+    margin-left: 70%;
+    padding: 5% 0% 5% 0%;
+}
+.icon-div {
+    margin: 2% 10%;
+}
+
+.icon-1 {
+    text-decoration: none;
+    color: aquamarine;
+    padding: 0% 2% 0% 2%;
+    width: 6%;
+}
+
+
+/*register-section*/
+
+form {
+    margin: 4% 30%;
+}
+
+#register h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.regdiv {
+    margin-left: 4%;
+    padding-top: 2%;
+}
+
+.icon2 {
+    color: aqua;
+}
+
+/*type section*/
+
+
+
+
+
+.type1 {
+    text-decoration: none;
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.para1 {
+    color: darkslategray;
+    border: none;
+}
+
+
+
+
+
+

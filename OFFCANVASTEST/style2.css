@@ -1,0 +1,72 @@
+/*buy-txpr*/
+
+#buy-txpr {
+    text-align: center;
+    padding-top: 7%;
+    color: white;
+    background: black;
+}
+
+.buy1 button { 
+    margin: 0% 8px;
+}
+
+.buy1 p {
+    color: darkorange;
+}
+.buy1 h1 {
+    line-height: 0;
+}
+.buy0 {
+    line-height: 3.5;
+}
+.buy0 h2 {
+    line-height: 3.5;
+}
+
+.buy0 p {
+    font-weight: bolder;
+}
+
+.buy0 button {
+    margin: 0% 8px;
+}
+.half-width {
+    width: 50%;
+    margin: 3% 25%;  
+    height: 4px;
+    border-style: solid none none;
+    border-width: 8px;
+    border-color: antiquewhite;
+    border-radius: 5%;
+      
+
+}
+.half-width1 {
+    width: 65%;
+    margin: 4% 15%;
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 4px;
+}
+
+.half-width2 {
+    width: 70%;
+    margin: 4% 7% 4% 12%;
+    border-style: dotted none none;
+    border-width: 4px;
+    border-color: grey;
+
+}
+
+.half-width3 {
+
+    width: 70%;
+    margin: 4% 7% 4% 12%;
+    border-style: dotted none none;
+    border-width: 4px;
+    border-color: grey;
+    text-align: center;
+
+
+}
